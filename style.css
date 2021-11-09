@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background: white;
+}
+
+.container{
+    display: block;
+    width: 75%;
+    padding: 6vh;
+    margin: auto;
+    color: white;
+}
+
+h1{
+    padding: 4vh;
+    width: 100%;
+    font-size: 40px;
+}
+
+h2{
+    width: 100%;
+    padding-bottom: 2vh;
+    color: #2ecc71;
+    font-weight: 400;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    background: #191919;
+    border-radius: 10px;
+    margin-bottom: 10vh;
+}
+
+h3{
+    position: relative;
+    flex-basis: 10%;
+    padding-top: 4px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+input{
+    padding: 5px;
+}
+#name{
+    /* position: relative; */
+    flex-basis: 85%;
+    margin-bottom: 4vh;
+    padding: 8px 6px;
+}
+
+#date, #amount{
+    /* position: relative; */
+    flex-basis: 36.85%;
+    margin-bottom: 4vh;
+    font-family: sans-serif;
+}
+
+.add{
+    flex-basis: 100%;
+    padding: 20px;
+    background: rgba(49, 201, 112, 0.26);
+    border: rgba(49, 201, 112, 0.26);
+    border-radius: 0 0 10px 10px;
+    font-size: 18px;
+    transition: 0.25s;
+    color: white;
+}
+
+.add:hover{
+    background-color: #2ecc71;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    border-collapse: collapse;
+    font-weight: 700;
+}
+
+th{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(20, 92, 49, 0.842);
+    padding: 7px; 
+    color: white
+}
+
+td{
+    background: rgba(88, 88, 88, 0.308);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 7px; 
+    color: black;
+}
+
+.close{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 20px;
+    transition: 0.2s;
+    width: 60px;
+
+}
+
+.close:hover{
+    background: rgba(1, 68, 46, 0.534);
+    color: white;
+    font-size: 20px;
+}
+
